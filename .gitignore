@@ -1,0 +1,11 @@
+cat > .gitignore << 'EOF'
+.env
+__pycache__/
+*.pyc
+*.pyo
+lease/
+venv/
+.venv/
+*.pdf
+*.docx
+EOF
